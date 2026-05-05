@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 99vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 211, 254, 0.22);
+}
+nav{
+    width:69vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 60vw;
+}
+.hoho{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.hoho :hover{
+    color: #FF7A50;
+}
+.singg{
+    border-radius: 10px;
+    background-color: #FF7A50;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #FF7A50;
+    color: white;
+}
+.solo{
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.solo_container{
+    position: relative;
+    left: 5vw;
+}
+.solo_container h1{
+    height: 13vh;
+    font-size: 45px;
+    color: #363853;
+    font-weight: 700;
+}
+.solo_container p{
+    font-size: 20px;
+    height: 8vh;
+    font-weight:400;
+    color: #363853;
+}
+.bibi{
+    width: 18vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.bibi .exp{
+    width: 163px;
+    height: 50px;
+    color: white;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    border-radius: 10px;
+}
+.bibi .plo{
+    position: relative;
+    top: 1vh;
+    text-decoration: underline;
+}
+.Scoo{
+    width: 689px;
+    height: 681px;
+}
+.Cate{
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.boll_container button{
+    width: 210px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: #363853;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.boll_container button img{
+    position: relative;
+    right: 0.5vw;
+}
+.boll_container button:hover{
+    background-color: #FF7A50;
+}
+.grib_container{
+    width: 99vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #363853;
+}
+.boll{
+    width: 99vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+}
+.boll_container{
+    width: 60vw;
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.big{
+    width: 99vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big_container{
+    width: 60vw;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buga .gogo{
+    width: 144px;
+    height: 144px;
+}
+.buga{
+    width: 208px;
+    height: 279px;
+    background-color: white;
+    border-radius: 10px;
+}
+.buga img{
+    position: relative;
+    left: 2vw;
+    top: 0.4vh;
+}
+.buga h2{
+    color: #363853;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.6vh;
+}
+.buga p{
+    color: #363853;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    height: 2.4vh;
+}
+.buga button{
+    position: relative;
+    left: 2.7vw;
+    width: 106px;
+    height: 32px;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    color: white;
+}
+.dol{
+    width: 99vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Stay{
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.Fod img{
+    width: 626px;
+    height: 670px;
+}
+.som{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+.som_container{
+    width: 65vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+.secp{
+    width: 30vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.secp h1{
+    width: 384px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #363853;
+}
+.secp p{
+    width:385px;
+    height: 103px;
+    color: #363853;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ziz{
+    width: 410px;
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ziz p{
+    width: 328px;
+    height: 30px;
+    color: #363853;
+    font-size: 24px;
+    font-weight: 400;
+}
+.bubu{
+    width: 385px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+.bubu button{
+    width: 176px;
+    height: 58px;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bods{
+    background-color:rgba(225, 211, 254, 0.22);
+}
+.tofoo{
+    width: 99vw;
+    height: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #363853;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu{
+    width: 99vw;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+}
+.menu_container{
+    width: 62vw;
+    display: flex;
+    justify-content: space-around;
+}
+.isha{
+    width: 361px;
+    height: 417px;
+    background-color: white;
+    border-radius: 48px;
+}
+.isha h1{
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+    width: 165px;
+    height: 30px;
+    color: #363853;
+    font-size: 24px;
+    font-weight: 500;
+}
+.burn{
+    width: 340px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.burn button{
+    width: 79px;
+    height: 33px;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    border-radius: 20px;
+    color: white;
+}
+.burn p{
+    color: #363853;
+    font-size: 18px;
+    font-weight: 300;
+}
+.ghol{
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.fil{
+    width: 99vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fil_container{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+.gko{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gko h1{
+    color: #363853;
+    font-size: 36px;
+    font-weight: 600;
+    width:454px ;
+    height: 65px;
+}
+.gko p{
+    color: #363853;
+    font-size: 20px;
+    font-weight: 400;
+    width: 460px;
+    height: 100px;
+}
+.fol{
+    width: 450px;
+    height: 40px;
+}
+.row{
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.bloh{
+    width: 99vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #363853;
+}
+.asd{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+.asd_container{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+.hip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hip h1{
+    color: #363853;
+    font-size: 28px;
+    font-weight: 400;
+    width: 34.5vw;
+    height: 24vh;
+    line-height: 40px;
+}
+.hip h2{
+    width: 34.4vw;
+    height: 8vh;
+    color: #FF7A50;
+    font-size: 22px;
+    font-weight: 600;
+}
+.ms{
+    width: 34.4vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ms p{
+    width: 25vw;
+    height: 4vh;
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ms_container{
+    width: 8vw;
+    display: flex;
+    justify-content: space-around;
+}
+.Subs{
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.volga{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volga_container{
+    width: 1170px;
+    height: 312px;
+    background-color: #FF7A50;
+    border-radius: 30px;
+}
+.volga_container h1{
+    height: 10vh;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volga_container p{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lega{
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lega .bib1{
+    position: relative;
+    left: 5vw;
+    width: 810px;
+    height: 78px;
+    background-color: white;
+    color: #363853;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.bib1 p{
+    position: relative;
+    color: #363853;
+    right: 14vw;
+    font-size: 18px;
+    font-weight: 400;
+}
+.lega .bib2{
+    position: relative;
+    right: 5vw;
+    width: 185px;
+    height: 58px;
+    background-color: #FF7A50;
+    border: 1px solid #FF7A50;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.foott{
+    background-color: rgba(225, 211, 254, 0.22);
+}
+.dred{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+.dred_container{
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.dred_container ul {
+    list-style: none;
+}
+.pups1{
+    color: #37383D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.pups{
+    color: #37383D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.pups h2{
+    font-size: 22px;
+}
+.lilo{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+}
+.lilo_container{
+    width: 63vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lilo_container p{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 500;
+}
+.stich ul{
+    width: 14vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #646464;
+    font-size: 16px;
+    font-weight: 500;
+}
